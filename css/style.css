@@ -107,3 +107,10 @@ header {
 .staff-name {
   text-align: center;
 }
+
+/* 追記部分です */
+.card-contents:after {
+  content: "";
+  clear: both;
+  display: block;
+}
